@@ -73,6 +73,14 @@
     <view class="apps">
       <view>
         <image src="../../imgs/danger.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">学校预警</view>
+      <view class="apptext">查看学校预警信息</view>
+      <view><image src="../../imgs/eyes.svg" /> 200+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
 
   
   
