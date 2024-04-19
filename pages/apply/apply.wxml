@@ -41,6 +41,8 @@
       <view>
         <image src="../../imgs/scoreA.svg" mode="aspectFit" />
       </view>
+      <view class="apptitle">成绩查询</view>
+      <view class="apptext">查询当前及历史成绩</view>
   
   
   
