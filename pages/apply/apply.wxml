@@ -99,3 +99,11 @@
     </view>
     <view>
       <image src="../../imgs/appimgs/map.png"/>
+      <view>学校地图</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/money.png"/>
+      <view>我的消费</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/email.png"/>
