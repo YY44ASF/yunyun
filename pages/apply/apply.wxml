@@ -30,6 +30,12 @@
     </view>
   </view>
 </view>
+<!-- 推荐应用 -->
+<view class="app">
+  <view>
+    <view>推荐应用</view>
+    <view>根据您最近浏览和办理应用为您推荐</view>
+  </view>
 
 
 
