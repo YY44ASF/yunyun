@@ -91,3 +91,11 @@
     <view>教学服务</view>
     <view>科研服务</view>
   </view>
+  <view class="text">最新上线</view>
+  <view class="choices flexbox">
+    <view>
+      <image src="../../imgs/appimgs/school.png"/>
+      <view>学校概况</view>
+    </view>
+    <view>
+      <image src="../../imgs/appimgs/map.png"/>
