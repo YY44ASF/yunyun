@@ -48,6 +48,16 @@
         <image src="../../imgs/add.svg" />
       </view>
     </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/books.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">图书借阅</view>
+      <view class="apptext">查看图书借阅记录</view>
+    
+    
+    
+    </view>
 
   
   
