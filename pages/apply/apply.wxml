@@ -59,6 +59,13 @@
         <image src="../../imgs/add.svg" />
       </view>
     </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/club.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">网上查询</view>
+      <view class="apptext">自助网上缴费</view>
+      <view><image src="../../imgs/eyes.svg" /> 150+</view>
 
   
   
