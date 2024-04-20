@@ -65,3 +65,17 @@
   border-radius: 20rpx;
   overflow: hidden;
 }
+.things .left>image:first-child{
+  width: 180rpx;
+  position: absolute;
+  top: 80rpx;
+}
+.things .left .midtitle{
+  position: absolute;
+  right: 26rpx;
+  top: 170rpx;
+  color: white;
+}
+.things .left .midtitle>view:first-child{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
