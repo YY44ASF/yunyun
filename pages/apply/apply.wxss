@@ -136,3 +136,10 @@
 .app>view:last-child{
   justify-content: space-between;
 }
+.app .apps{
+  width: 164rpx;
+  height: 280rpx;
+  border-radius: 22rpx;
+  box-shadow: 2rpx 2rpx 20rpx 1rpx rgba(0, 0, 0, 0.068);
+  position: relative;
+}
