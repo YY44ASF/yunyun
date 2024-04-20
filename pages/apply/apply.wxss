@@ -115,3 +115,12 @@
 .flexbox{
   display: flex;
 }
+/* 推荐应用 */
+.app{
+  width: 90%;
+  margin: auto;
+  margin-top: 50rpx;
+}
+.app>view:first-child{
+  margin-bottom: 30rpx;
+}
