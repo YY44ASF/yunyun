@@ -163,3 +163,17 @@
 .app .flexbox>view:nth-child(4)>view:first-child{
   background: linear-gradient(to right,#D36B6D,#C0382C);
 }
+.app .apps>view:first-child>image{
+  width: 35rpx;
+  height: 35rpx;
+}
+.app .apps .apptitle{
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 8rpx;
+}
+.app .apps .apptext{
+  font-size: 18rpx;
+  text-align: center;
+  margin-top: 2rpx;
+  color: #7f7f7f;
