@@ -121,3 +121,9 @@
       <image src="../../imgs/appimgs/red.png"/>
       <view>我的党建</view>
     </view>
+    <view>
+      <image src="../../imgs/appimgs/shenpi.png"/>
+      <view>网上审批</view>
+    </view>
+  </view>
+</view>
