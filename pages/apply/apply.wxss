@@ -79,3 +79,20 @@
 .things .left .midtitle>view:first-child{
   font-size: 28rpx;
   margin-bottom: 10rpx;
+}
+.things .left .midtitle>view:last-child{
+  font-size: 23rpx;
+}
+.things .right{
+  position: relative;
+  display: flex;
+  width: 48%;
+  height: 200rpx;
+  border-radius: 20rpx;
+  top: -100rpx;
+}
+.things .right>image:first-child{
+  position: absolute;
+  width: 180rpx;
+  height: 150rpx;
+  margin-top: 144rpx;
