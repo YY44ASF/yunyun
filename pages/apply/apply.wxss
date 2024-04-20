@@ -1,1 +1,9 @@
 /* pages/apply/apply.wxss */
+/* 搜索栏 */
+.w90{
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
