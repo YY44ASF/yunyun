@@ -143,3 +143,23 @@
   box-shadow: 2rpx 2rpx 20rpx 1rpx rgba(0, 0, 0, 0.068);
   position: relative;
 }
+.app .apps>view:first-child{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right,#27E797,#12BA92);
+  margin-top: 23rpx;
+}
+.app .flexbox>view:nth-child(2)>view:first-child{
+  background: linear-gradient(to right,#FDB025,#FE9314);
+}
+.app .flexbox>view:nth-child(3)>view:first-child{
+  background: linear-gradient(to right,#2DB8F3,#2A8FDD);
+}
+.app .flexbox>view:nth-child(4)>view:first-child{
+  background: linear-gradient(to right,#D36B6D,#C0382C);
+}
