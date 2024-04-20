@@ -177,3 +177,29 @@
   text-align: center;
   margin-top: 2rpx;
   color: #7f7f7f;
+}
+.app .apps>view:nth-child(4){
+  color: #ABABAB;
+  font-size: 18rpx;
+  text-align: center;
+  line-height: 30rpx;
+  margin: auto;
+  width: 90rpx;
+  height: 28rpx;
+  border-radius: 25rpx;
+  background-color: #f5f5f5e1;
+  margin-top: 13rpx;
+}
+.app .apps>view:nth-child(4)>image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.app .apps>view:last-child{
+  display: flex;
+  justify-content: center;
+  margin-top: 15rpx;
+}
+.app .apps>view:last-child>image{
+  width: 40rpx;
+  height: 40rpx;
+}
