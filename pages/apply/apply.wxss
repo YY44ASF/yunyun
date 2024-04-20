@@ -124,3 +124,15 @@
 .app>view:first-child{
   margin-bottom: 30rpx;
 }
+.app>view:first-child>view:first-child{
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+.app>view:first-child>view:last-child{
+  font-size: 26rpx;
+  color: #868686;
+}
+.app>view:last-child{
+  justify-content: space-between;
+}
