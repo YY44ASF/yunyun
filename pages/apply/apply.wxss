@@ -45,3 +45,23 @@
   font-weight: 900;
   margin-right: 20rpx;
 }
+/* 办事 */
+.things{
+  width: 90%;
+  height: 200rpx;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+  position: relative;
+}
+.things .left{
+  position: relative;
+  display: flex;
+  width: 48%;
+  height: 200rpx;
+  top: -100rpx;
+  padding-bottom: 95rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
