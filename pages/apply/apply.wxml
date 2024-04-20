@@ -81,7 +81,7 @@
         <image src="../../imgs/add.svg" />
       </view>
     </view>
-</view>
+  </view>
 </view>
 <!-- 最新上线 -->
 <view class="new">

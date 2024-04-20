@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/page1/page1",
     "pages/apply/apply",
-    "pages/duanxin/duanxin"
+    "pages/duanxin/duanxin",
+    "pages/found/found"
   ],
   "window": {
     "navigationBarTextStyle": "black",
