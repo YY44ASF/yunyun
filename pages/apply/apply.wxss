@@ -96,3 +96,22 @@
   width: 180rpx;
   height: 150rpx;
   margin-top: 144rpx;
+}
+.things .right .midtitle{
+  position: absolute;
+  right: 25rpx;
+  top: 70rpx;
+  color: white;
+}
+.things .right .midtitle>view:first-child{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  margin-top: 100rpx;
+}
+.things .right .midtitle>view:last-child{
+  font-size: 23rpx;
+}
+
+.flexbox{
+  display: flex;
+}
