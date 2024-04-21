@@ -1,2 +1,169 @@
-<!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<!-- 头部图片 -->
+<view class="topimg">
+  <image src="../../imgs/1.png" mode="" />
+  <view class="toptitle">
+    <view>智慧校园门户</view>
+    <view>学校概况 办事指南等功能</view>
+    <view>方便快捷 办事实时查看消息</view>
+    <view>去了解</view>
+  </view>
+</view>
+<!-- 首页导航列表 -->
+<view class="barlist">
+  <view bind:tap="change">
+    <view class="yellow">
+      <image src="../../imgs/school.svg"></image>
+    </view>
+    <view>学校概况</view>
+  </view>
+  <view bind:tap="changemessage">
+    <view>
+      <image src="../../imgs/score.svg"></image>
+    </view>
+    <view>{{message}}</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/order.svg"></image>
+    </view>
+    <view>缴费入口</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/danger.svg"></image>
+    </view>
+    <view>学校预警</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/all.svg"></image>
+    </view>
+    <view>全部</view>
+  </view>
+</view>
+<!-- 待办事项和办事指南 -->
+<view class="things">
+  <view class="left">
+    <image src="../../imgs/man.png" />
+    <view class="midtitle">
+      <view>待办事项</view>
+      <view>我的待办事项</view>
+    </view>
+  </view>
+  <view class="right">
+    <image src="../../imgs/woman.png" />
+    <view class="midtitle">
+      <view>办事指南</view>
+      <view>办事指南汇总</view>
+    </view>
+  </view>
+</view>
+<!-- 系统上线运行时间 -->
+<view class="runtime flexbox">
+  <view class="flexbox">
+    <image src="../../imgs/audio.svg" />
+  </view>
+  <view>关于系统上线运行的时间</view>
+</view>
+<!-- 办事指南新体验 -->
+<view class="newfeel flexbox">
+  <view>
+    <view>办事指南新体验</view>
+    <view>新增办事指南和消息栏目办事更便捷</view>
+    <view>去了解 →</view>
+  </view>
+  <view>
+    <image src="../../imgs/newfeel.png" mode="aspectFit" />
+  </view>
+</view>
+<!-- 推荐应用 -->
+<view class="app">
+  <view>
+    <view>推荐应用</view>
+    <view>根据您最近浏览和办理应用为您推荐</view>
+  </view>
+  <view class="flexbox">
+    <view class="apps">
+      <view>
+        <image src="../../imgs/scoreA.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">成绩查询</view>
+      <view class="apptext">查询当前及历史成绩</view>
+      <view><image src="../../imgs/eyes.svg" /> 200+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/books.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">图书借阅</view>
+      <view class="apptext">查看图书借阅记录</view>
+      <view><image src="../../imgs/eyes.svg" /> 100+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/club.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">网上查询</view>
+      <view class="apptext">自助网上缴费</view>
+      <view><image src="../../imgs/eyes.svg" /> 150+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+    <view class="apps">
+      <view>
+        <image src="../../imgs/danger.svg" mode="aspectFit" />
+      </view>
+      <view class="apptitle">学校预警</view>
+      <view class="apptext">查看学校预警信息</view>
+      <view><image src="../../imgs/eyes.svg" /> 200+</view>
+      <view>
+        <image src="../../imgs/add.svg" />
+      </view>
+    </view>
+  </view>
+
+  <view class="inform">
+  <view>
+    <view>通知公告</view>
+    <view>通知公告</view>
+    <view>综合信息</view>
+    <view>学术动态</view>
+  </view>
+  <view>
+  <view>
+    <view>
+      <view>关于加强新生入学后校园安全管理规范的通知</view>
+      <view>校园新闻网</view>
+    </view>
+    <view class="r1">
+      <image src="../../imgs/newOne.png" mode=""/>
+    </view>
+  </view>
+  <view>
+    <view>
+      <view>关于开展2023新生入学教育系列培训课程的指导意见 </view>
+      <view>信息化管理中心</view>
+    </view>
+    <view class="r2">
+      <image src="../../imgs/item2.png" mode=""/>
+    </view>
+  </view>
+  <view>
+    <view>
+      <view>关于加强新生入学后校园安全管理条例实行的通知</view>
+      <view>教务处</view>
+    </view>
+    <view class="r3">
+      <image src="../../imgs/item1.png" mode=""/>
+    </view>
+  </view>
+  </view>
+</view>
+</view>
