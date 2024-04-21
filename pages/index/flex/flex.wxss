@@ -1,0 +1,8 @@
+/* pages/index/flex/flex.wxss */
+.flexbox{
+  display: flex;
+  height: 100rpx;
+  background-color: red;
+  justify-content: space-around;
+  align-items: center;
+}

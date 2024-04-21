@@ -1,0 +1,8 @@
+<!--pages/index/flex/flex.wxml-->
+<view class="flexbox">
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+  <view>4</view>
+  <view>5</view>
+</view>

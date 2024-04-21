@@ -5,7 +5,14 @@
     "pages/page1/page1",
     "pages/apply/apply",
     "pages/duanxin/duanxin",
-    "pages/found/found"
+    "pages/found/found",
+    "pages/index/flex/flex",
+    "pages/login/login",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/myself/myself",
+    "pages/sehzhi/sehzhi",
+    "pages/welcome/welcome"
   ],
   "window": {
     "navigationBarTextStyle": "black",
