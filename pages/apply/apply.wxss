@@ -96,6 +96,7 @@
   width: 180rpx;
   height: 150rpx;
   margin-top: 144rpx;
+
 }
 .things .right .midtitle{
   position: absolute;
@@ -242,3 +243,4 @@
   width: 70rpx;
   height: 70rpx;
 }
+
