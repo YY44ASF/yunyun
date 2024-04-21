@@ -1,2 +1,32 @@
+
 <!--pages/found/found.wxml-->
-<text>pages/found/found.wxml</text>
+<!-- 搜索栏 -->
+<view class="Search">
+  <view class="w90">
+    <text>发现</text>
+    <view>
+      <image src="../../imgs/search.png" mode=""/>
+      <input type="text" placeholder="搜索应用 消息 新闻"/>
+    </view>
+    <image src="../../imgs/扫码.png"/>
+    <image src="../../imgs/消息-置灰.png"/>
+  </view>
+</view>
+<!-- 头部图片 -->
+<view class="topimg">
+  <image src="../../imgs/findationimgs/top.png" mode="" />
+  <view class="toptitle">
+    <view>发现新鲜事</view>
+    <view>校内各院系各部门重要新闻汇报</view>
+    <view>随时随地查看</view>
+  </view>
+</view>
+<!-- 最新上线 -->
+<view class="new">
+  <view class="options flexbox">
+    <view>通知公告</view>
+    <view>学校新闻</view>
+    <view>综合信息</view>
+    <view>学术动态</view>
+  </view>
+</view>
