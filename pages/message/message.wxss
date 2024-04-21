@@ -1,1 +1,127 @@
 /* pages/message/message.wxss */
+/* 搜索栏 */
+.w90{
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.Search{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 70rpx;
+  box-shadow: 2px 2px 2px 1px rgba(139, 139, 139, 0.2);
+}
+.Search .w90>view{
+  width: 300rpx;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 10rpx;
+  box-shadow: 0px 2px 2px 1px rgba(139, 139, 139, 0.1);
+  border-radius: 20rpx;
+  margin-left:35rpx;
+}
+.Search .w90>view>image{
+  width: 45rpx;
+  height: 35rpx;
+}
+.Search .w90>view>input{
+  width: 190px;
+  height: 20px;
+  font-size: 18rpx;
+  padding-left:10rpx;
+  border: none; 
+}
+.Search .w90>image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left:35rpx;
+}
+.Search .w90>text{
+  font-size: 33rpx;
+  font-weight: 900;
+  margin-right: 20rpx;
+}
+/* 导航栏 */
+.barlist{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.barlist>view>view:first-child{
+  position: relative;
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20rpx;
+  margin-top: 30rpx;
+}
+.barlist>view>view:first-child>image{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 35rpx;
+  height: 35rpx;
+}
+.barlist .yellow{
+  background-color: rgb(236,30,113);
+}
+.barlist>view:nth-child(2)>view:first-child{
+  background-color: rgb(30,157,255);
+}
+.barlist>view:nth-child(3)>view:first-child{
+  background-color: rgb(246,176,89);
+}
+.barlist>view:nth-child(4)>view:first-child{
+  background-color: rgb(143,106,255);
+}
+.barlist>view:nth-child(5)>view:first-child{
+  background-color: rgb(3,227,145);
+}
+.barlist>view>view:last-child{
+  font-size: 26rpx;
+  text-align: center;
+}
+/* 操作栏 */
+.operate{
+  width: 90%;
+  height: 500rpx;
+  margin-left: 25rpx;
+  margin-top: 50rpx;
+}
+.operate>view{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50rpx;
+}
+.operate>view>image{
+  width: 12%;
+}
+.operate .texts{
+  margin-left: -180rpx;
+}
+.operate view:nth-child(2)>.texts{
+  margin-left: -273rpx;
+}
+.operate .texts>view:first-child{
+  margin-bottom: 20rpx;
+}
+.operate .texts>view:last-child{
+  font-size: 20rpx;
+  color: #A3A3A3;
+}
+.operate view>view:last-child{
+  font-size: 20rpx;
+  color: #A3A3A3;
+}
